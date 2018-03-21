@@ -1,0 +1,189 @@
+<h2 id='scores'>High Scores</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+{{#each score}}
+{{this.name}} - {{this.score}} <br>
+<hr>
+{{/each}}
+    </div>
+</div>
+</div>
+<form method="POST" action="/submit">
+    <h1 id= 'header'>Quiz</h1>
+
+    <input type="text" name="name" placeholder="">Name
+
+    <h2>Question One</h2>
+    <p> dz/dt = 1 + z + t + zt </p>
+
+    <input type="radio" name="question_one" value="Separable and not linear.">Separable and not linear.
+    <br>
+
+    <input type="radio" name="question_one" value="Linear and not separable.">Linear and not separable.
+    <br>
+
+    <input type="radio" name="question_one" value="Neither separable nor linear.">Neither separable nor linear.
+    <br>
+
+    <input type="radio" name="question_one" value="Both separable and linear.">Both separable and linear.
+    <br>
+
+    <hr>
+
+    <h2>Question Two</h2>
+    <p>Write the differential equation representing the family of curves Y = MX, where m is an arbitrary constant.</p>
+
+    <input type="radio" name="question_two" value="Xdy – ydx = 0">Xdy – ydx = 0
+    <br>
+
+    <input type="radio" name="question_two" value="Xdy – dx = 0">Xdy – dx = 0
+    <br>
+
+    <input type="radio" name="question_two" value="Xdy + ydx = 0">Xdy + ydx = 0
+    <br>
+
+    <input type="radio" name="question_two" value="Dy – ydx = 0">Dy – ydx = 0
+    <br>
+
+    <hr>
+
+    <h2>Question Three</h2>
+    <p>Pteronophobia is the fear of being _____ by feathers!</p>
+
+    <input type="radio" name="question_three" value="tickled">tickled
+    <br>
+
+    <input type="radio" name="question_three" value="spiders">spiders
+    <br>
+
+    <input type="radio" name="question_three" value="water">water
+    <br>
+
+    <input type="radio" name="question_three" value="rabbits">rabbits
+    <br>
+
+    <hr>
+
+    <h2>Question Four</h2>
+    <p>When hippos are upset, __________.</p>
+
+    <input type="radio" name="question_four" value="stand on their legs">stand on their legs
+    <br>
+
+    <input type="radio" name="question_four" value="their skin turns yellow">their skin turns yellow
+    <br>
+
+    <input type="radio" name="question_four" value="their sweat turns red">their sweat turns red
+    <br>
+
+    <input type="radio" name="question_four" value="they sleep">they sleep
+    <br>
+
+    <hr>
+
+<h2>Question Five</h2>
+    <p>What is the most populated country in Africa, __________.</p>
+
+    <input type="radio" name="question_five" value="Kenya">Kenya
+    <br>
+
+    <input type="radio" name="question_five" value="South Africa">South Africa
+    <br>
+
+    <input type="radio" name="question_five" value="Nigeria">Nigeria
+    <br>
+
+    <input type="radio" name="question_five" value="Morroco">Morroco
+    <br>
+
+    <hr>
+
+<h2>Question Six</h2>
+    <p>What’s the Color of Mirror? __________.</p>
+
+    <input type="radio" name="question_six" value="Sharp White">Sharp White
+    <br>
+
+    <input type="radio" name="question_six" value="Blue">Blue
+    <br>
+
+    <input type="radio" name="question_six" value="Green">Green
+    <br>
+
+    <input type="radio" name="question_six" value="Red">Red
+    <br>
+
+    <hr>
+
+<h2>Question Seven</h2>
+    <p>Where Do Permanently Deleted Files Go in Computers __________.</p>
+
+    <input type="radio" name="question_seven" value="White House">White House
+    <br>
+
+    <input type="radio" name="question_seven" value="No Where">No Where
+    <br>
+
+    <input type="radio" name="question_seven" value="Your Partner Cell Phone">Your Partner Cell Phone
+    <br>
+
+    <input type="radio" name="question_seven" value="Ask FBI Agent">Ask FBI Agent
+    <br>
+
+    <hr>
+
+<h2>Question Eight</h2>
+    <p>Beth’s mother has three daughters. One is called Lara, the other one is Sara. What is the name of the third daughter? __________.</p>
+
+    <input type="radio" name="question_eight" value="Pavakan">Pavakan
+    <br>
+
+    <input type="radio" name="question_eight" value="Brian">Brian
+    <br>
+
+    <input type="radio" name="question_eight" value="Beth">Beth
+    <br>
+
+    <input type="radio" name="question_eight" value="Preston">Preston
+    <br>
+
+    <hr>
+
+    <h2>Question Nine</h2>
+    <p>What belongs to you but other people use it more than you __________.</p>
+
+    <input type="radio" name="question_nine" value="Your Name">Your Name
+    <br>
+
+    <input type="radio" name="question_nine" value="Your Shoe">Your Shoe
+    <br>
+
+    <input type="radio" name="question_nine" value="Your Girl Friend">Your Girl Friend
+    <br>
+
+    <input type="radio" name="question_nine" value="None of the above">None of the above
+    <br>
+
+    <hr>
+
+<h2>Question Ten</h2>
+    <p>If three cats kill three rats in three minutes, how long will it take hundred cats to kill hundred rats? __________.</p>
+
+    <input type="radio" name="question_Ten" value="Thirty Minutes">Thirty Minutes
+    <br>
+
+    <input type="radio" name="question_Ten" value="Seven Minutes">Seven Minutes
+    <br>
+
+    <input type="radio" name="question_Ten" value="Three Minutes">Three Minutes
+    <br>
+
+    <input type="radio" name="question_Ten" value="Two Minutes">Two Minutes
+    <br>
+
+    <hr>
+
+
+    <input type="submit" value="submit"></input>
+</form>

@@ -1,0 +1,23 @@
+h1{
+color: red;
+text-align: center;
+background: #2b5876;
+
+}
+form{
+    background: #2193b0;
+    margin-left: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+.col-sm-4{
+    border: black solid 2px;
+    text-align: center;
+    width: 50px;
+}
+
+#scores{
+    text-align: center;
+}
